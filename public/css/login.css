@@ -1,0 +1,118 @@
+#main-login{
+  font-family: "Courier";
+  margin: 0px auto 70px;
+  text-align: center;
+  padding-bottom: 7rem;
+  overflow: hidden;
+}
+
+#main-login .form-container-login{
+  background: #f1f8e9;
+  box-shadow: 0px 0px 10px 0px rgba(134,148,42,0.8);
+}
+
+#main-login .form-container-login #login-email, #main-login .form-container-login .login-senha {
+  background-color: #F3F4EC;
+  border: 1px solid #CCCFBC;
+}
+
+#main-login .form-container-login #login-email:focus, #main-login .form-container-login .login-senha:focus{
+  
+  box-shadow: 0px 0px 5px 0px #A37B45;
+}
+
+#main-login .form-container-login .login-div-icones{
+  font-size: 20px;
+  color: #A37B45;
+}
+
+#main-login .form-container-login .login-div-icones i{
+  color: #507642;
+}
+
+#main-login .form-container-login #login-links a{
+  text-decoration: none;
+  color: #507642;
+  font-weight: bold;
+  font-family: "Courier";
+  display: block;
+  font-size: 16px;
+}
+
+#main-login .form-container-login #login-links a:hover{
+  color: #CCCFBC;
+}
+
+#main-login .form-container-login #botao-login{
+  background-color: #86942A;
+  color: #F3F4EC;
+  font-family: "Courier";
+  border: 2px solid #507642;
+}
+
+#main-login .form-container-login #botao-login:hover{
+  background-color: #507642;
+  border: 2px solid rgba(134,148,42,0.8);
+}
+
+
+/*Medias-queries*/
+
+@media (max-width: 576px) {
+  #main-login .form-container-login #login-email, #main-login .form-container-login .login-senha {
+    font-size: 12px;
+  }
+
+  #main-login .form-container-login{
+    width: 90%;
+    padding: 20px 40px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 576px) {
+  #main-login .form-container-login{
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  #main-login .form-container-login #login-email, #main-login .form-container-login .login-senha {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  #main-login .form-container-login{
+    width: 400px;
+    padding: 30px;
+  }
+
+  #main-login .form-container-login #login-email, #main-login .form-container-login .login-senha {
+    font-size: 18px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  #main-login .form-container-login{
+    width: 450px;
+    padding: 40px;
+    margin: 0 auto;
+  }
+
+  #main-login .form-container-login #login-email, #main-login .form-container-login .login-senha {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #main-login .form-container-login{
+    width: 500px;
+    padding: 60px;
+  }
+
+  #main-login .form-container-login #login-email, #main-login .form-container-login .login-senha {
+    font-size: 22px;
+  }
+}

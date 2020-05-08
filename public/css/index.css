@@ -1,0 +1,258 @@
+#home {
+    font-family: "Roboto", sans-serif;
+    background: #dcedc8;
+}
+
+#home h2 {
+    margin-top: 15vh;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #507642;
+    font-family: "Courier";
+    font-weight: bold;
+}
+
+#novidades .slider .slick-prev {
+    z-index: 1;
+}
+
+/* Editoras */
+
+.editoras {
+    display: flex;
+    justify-content: center;
+}
+
+.editoras figure:hover {
+    background-color: #507642;
+    cursor: pointer;
+}
+
+.editoras .editora-imagem {
+    max-height: 330px;
+}
+
+.caption-1 figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.caption-2 figcaption {
+    width: 80%;
+    position: absolute;
+    bottom: 1rem;
+    left: 10%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.caption-3 figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* Newsletter */
+
+.home-newsletter {
+    background: #36384c;
+    padding: 60px calc((100% - 960px) / 2 );
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-info {
+    flex: 1 1 1 240px;
+    margin: 0 10px;   
+}
+
+.newsletter-info h1 {
+    font-size: 3em;
+    color: #849974;  
+}
+
+.newsletter-info p {
+    font-size: 1.25em;
+    font-family: "Courier";
+    max-width: 300px;
+    color: #849974; 
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    flex: 2 1 260px;
+    margin: 0 20px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.newsletter-form input {
+    flex: 3 1 200px;
+    font-size: 1.25em;
+    font-family: "Courier";
+    color: #849974; 
+    border: 4px solid #849974;
+    background: transparent;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.newsletter-form button {
+    flex: 1 1 200px;
+    font-size: 2.25em;
+    font-family: "Courier";
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #36384c; 
+    margin: 0px;
+    cursor: pointer;
+    border: 0px;    
+    padding: 15px 10px;
+    background: #849974;
+}
+
+
+
+
+/* CAROUSEL */
+h1 {
+    margin-top: 0;
+    font-size: 3rem;
+    display: inline-block;
+}
+h1 div {
+    position: relative;
+    float: left;
+}
+h1 div:first-child {
+    color: #3498db;
+    margin-right: 1rem;
+}
+/* PROFIL */
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-bottom: 10px;
+}
+
+.blog .carousel-indicators .active {
+    background: #707070;
+    margin-bottom: 10px;
+}
+
+.our-team-section {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our-team-section:before {
+    position: absolute;
+    top: -0;
+    left: 0;
+    content: " ";
+    background: url(img/service-section-bottom.png);
+    background-size: 100% 100px;
+    width: 100%;
+    height: 100px;
+    float: left;
+    z-index: 99;
+}
+.our-team {
+    padding: 0 0 40px;
+    background: #f9f9f9;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 5px solid transparent;
+}
+.our-team:hover {
+    border-bottom: 5px solid #507642;
+}
+
+.our-team .pic {
+    display: inline-block;
+    width: 130px;
+    height: 170px;
+    z-index: 1;
+    position: relative;
+}
+.our-team .pic:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #507642;
+    position: absolute;
+    bottom: 140%;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+.our-team:hover .pic:before {
+    height: 100%;
+    background: #2f2f2f;
+}
+.our-team .pic:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s linear 0s;
+}
+.our-team:hover .pic:after {
+    background: #7ab92d;
+}
+.our-team .pic img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+    transform: scale(0.7);
+    position: relative;
+    z-index: 2;
+}
+.our-team .team-content {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.our-team .title {
+    font-size: 18px;
+    display: block;
+    font-weight: 700;
+    color: #4e5052;
+    text-transform: capitalize;
+
+    margin-bottom: -0.3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    height: 45px;
+    min-height: 30px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+.our-team .post {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 10px;
+    }
+}

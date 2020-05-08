@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: "Courier";
+    font-weight: 100;
+}
+
+h1 {
+    font-family: "Courier";
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #507642;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+section {
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-success {
+    background-color: #507642;
+}
+/* INÍCIO DO MENU + FOOTER */
+
+#menu {
+    display: flex;
+    align-items: center;
+    background-color: #507642;
+    height: 100px;
+    font-family: "Courier";
+}
+
+#menu .icon {
+    font-size: 25px;
+}
+
+#menu .logo {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#menu .logo img {
+    width: 100%;
+}
+
+#menu .busca {
+    width: 50%;
+}
+
+#menu .busca form {
+    display: flex;
+    justify-content: center;
+}
+
+#menu .busca form .search {
+    padding: 0 30px;
+    width: 70%;
+    font-size: 18px;
+    border-radius: 20px 0 0 20px;
+    height: 35px;
+}
+
+#menu .busca form .submit {
+    cursor: pointer;
+    border: none;
+    background-size: 35px 35px;
+    border-radius: 0 20px 20px 0;
+    display: inline-block;
+    width: 40px;
+}
+
+#menu .login {
+    width: auto;
+    display: flex;
+    max-width: 15vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+#menu .login .icon {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1.2px solid #000;
+}
+
+#menu .login p {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#menu .carrinho {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+}
+
+.navbar,
+.navbar .dropdown-menu,
+.navbar .dropdown-item,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:visited {
+    font-weight: 800;
+    color: black;
+    background-color: white;
+}
+
+.dropdown-menu .dropdown-item:visited,
+.dropdown-menu .dropdown-item:active {
+    font-weight: 800;
+    color: black;
+    background-color: white;
+}
+
+.navbar-light .navbar-nav .show > .dropdown-item:hover,
+.dropdown-menu .dropdown-item:hover {
+    font-weight: 800;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+.navbar ul li {
+    margin-bottom: 1.2px;
+}
+
+.navbar .nav-item {
+    padding: 10px 0;
+}
+
+.navbar .nav-item .dropdown-item:hover {
+    color: green;
+}
+
+.navbar-nav {
+    flex: 1;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.navbar ul li:hover,
+.navbar .dropdown-menu a:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #507642;
+}
+
+.navbar-light .navbar-toggler,
+.navbar-toggler-icon {
+    border-color: black;
+    color: black;
+}
+
+.navbar-light #navbarNavDropdown {
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+
+.navbar-light .navbarNavDropdown .navbar-nav .show .dropdown-item,
+.navbar-light
+    .navbarNavDropdown
+    .navbar-nav
+    .show
+    .dropdown-menu
+    .navbar-light
+    .navbarNavDropdown
+    .navbar-nav
+    .show
+    .dropdown-item:hover {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    font-family: "Courier";
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    color: #fff;
+}
+
+footer .seta {
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: -1px;
+}
+
+footer .seta a {
+    transition: 1s;
+}
+
+footer .container-footer {
+    padding-top: 20px;
+    background-color: #507642;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .container-footer h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer .container-footer ul {
+    padding: 0;
+}
+
+footer .container-footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer .container-footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .container-footer ul li a:hover {
+    border-bottom: 1.5px solid #fff;
+}
+
+footer .container-footer .pagamento ul {
+    display: flex;
+}
+
+footer .container-footer .pagamento img {
+    width: 55px;
+    border-radius: 6px;
+    padding: 0 10px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+footer .container-footer .social-media {
+    padding: 0 5px;
+}
+
+footer .container-footer .footer_fb {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+footer .container-footer .footer_fb:hover {
+    color: #3b5998;
+    border: none;
+}
+
+footer .container-footer .footer_twitter {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+footer .container-footer .footer_twitter:hover {
+    color: #38a1f3;
+    border: none;
+}
+
+footer .msg {
+    background-color: #86942a;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* FINAL DO MENU + FOOTER*/
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    margin: 50px auto 70px;
+    text-align: center;
+    padding-bottom: 7rem;
+    overflow: hidden;
+}
+
+@media (max-width: 576px) {
+    #menu .logo {
+        width: 100px;
+    }
+
+    footer .container-footer {
+        display: grid;
+        text-align: center;
+    }
+
+    footer .container-footer ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu .login p {
+        font-size: 10px;
+    }
+}

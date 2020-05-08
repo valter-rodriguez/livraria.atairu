@@ -1,0 +1,122 @@
+#conta-principal{
+  font-family: "Courier";
+}
+
+#conta-principal .conta-div-principal{
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(134,148,42,0.8);
+  padding: 30px;
+  max-width: 840px;
+  color: #507642;
+  font-family: "Courier";
+  align-self: flex-start;
+}
+
+#conta-principal .conta-div-principal img{
+  width: 25%;
+}
+
+#conta-principal .conta-div-principal .titulo-conta-2{
+  padding: 0;
+  margin: 30px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#conta-principal .conta-div-principal .paraf-conta a{
+  padding: 0;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #507642;
+  font-size: 1,5em;
+  text-align: center;
+  max-width: 500px;
+}
+
+#conta-principal .conta-div-principal .paraf-conta a:hover{
+  color: #CCCFBC;
+}
+
+/*Media-queries*/
+
+@media (max-width: 576px) {
+  #conta-principal .conta-div-principal .titulo-conta-2{
+    font-size: 26px;
+  }
+
+  #conta-principal .conta-div-principal .paraf-conta{
+    font-size: 22px;
+  }
+  #conta-principal .conta-div-principal img{
+    width: 35%;
+  }
+}
+
+@media (min-width: 576px) {
+  #conta-principal .conta-div-principal .titulo-conta-2{
+    font-size: 26px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  #conta-principal .conta-div-principal .paraf-conta{
+    font-size: 22px;
+    text-align: left;
+  }
+  #conta-principal .conta-div-principal img{
+    margin-top: 20px;
+    width: 55%;
+  }
+}
+
+@media (min-width: 768px) {
+#conta-principal .conta-div-principal .titulo-conta-2{
+  font-size: 28px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+#conta-principal .conta-div-principal .paraf-conta{
+  font-size: 24px;
+  text-align: left;
+}
+#conta-principal .conta-div-principal img{
+  margin-top: 30px;
+  width: 45%;
+}
+}
+
+@media (min-width: 992px) {
+#conta-principal .conta-div-principal .titulo-conta-2{
+  font-size: 34px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#conta-principal .conta-div-principal .paraf-conta{
+  font-size: 26px;
+  text-align: left;
+}
+#conta-principal .conta-div-principal img{
+  margin-top: 20px;
+  width: 40%;
+}
+}
+
+@media (min-width: 1200px) {
+
+#conta-principal .conta-div-principal .titulo-conta-2{
+  font-size: 36px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+#conta-principal .conta-div-principal .paraf-conta{
+  font-size: 26px;
+  text-align: left;
+}
+#conta-principal .conta-div-principal img{
+  margin-top: 20px;
+  width: 35%;
+}
+}

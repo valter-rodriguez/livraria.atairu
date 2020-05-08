@@ -1,0 +1,46 @@
+.container-contato .titulo-contato {
+    margin-left: 25px;
+    height: 10px;
+    
+}
+
+.container-contato .text-contato {
+    font-family: "Courier";
+    font-weight: bold;
+    color: #507642;
+    /* padding-left: 200px; */
+}
+
+.container-contato .form-group {
+    font-family: "Courier";
+    font-weight: bold;
+    color: #507642;
+    text-align: justify;
+}
+
+.container-contato .endereco-contato {
+    font-family: "Courier";
+    font-size: 20px;
+    font-weight: bold;
+    color: #507642;
+    width: max-content;
+    /* padding-left: 100px; */
+}
+
+.container-contato .btn {
+    background: #507642;
+    font-family: "Courier";
+    font-weight: bold;
+    color: #fff;
+    display: block;
+}
+
+.container-contato .row {
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.container-contato .contato-form {
+    width: 500px;
+    font-size: 18px;
+}

@@ -1,0 +1,55 @@
+#altera-conta{
+	box-shadow: 0px 0px 10px 0px rgba(134,148,42,0.8);
+	max-width: 500px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.altera-container{
+	display: grid;
+	grid-template-columns: 2fr;
+	max-width: 600px;
+	
+}
+
+#altera-conta-principal .altera-conta-div-principal{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+#altera-conta-principal .altera-conta-div-principal .altera-conta-div-auxiliar{
+	grid-template-columns: repeat(3, 1fr);
+	max-width: 300px;
+	grid-gap: 20px;
+	justify-content: end;
+}
+
+#altera-conta-principal .altera-conta-botao{
+	margin: auto;
+	background-color: #86942A;
+	color: #F3F4EC;
+	font-family: "Courier";
+	border: 2px solid #507642;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	justify-content: end;
+}
+
+#altera-conta-principal .altera-conta-botao:hover{
+  background-color: #507642;
+  border: 2px solid rgba(134,148,42,0.8);
+}
+
+#altera-conta-principal .altera-conta-nome{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Courier";
+	color: #507642;
+}
+
+#altera-conta-principal .altera-conta-nome p{
+	font-size: 12px;
+}

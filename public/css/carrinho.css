@@ -1,0 +1,145 @@
+.group:before,
+.shopping-cart:before,
+.column-labels:before,
+.product:before,
+.totals-item:before,
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+    content: "";
+    display: table;
+}
+
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+    clear: both;
+}
+
+.group,
+.shopping-cart,
+.column-labels,
+.product,
+.totals-item {
+    zoom: 1;
+}
+
+.product .product-price:before,
+.product .product-line-price:before,
+.totals-value:before {
+    content: "R$ ";
+}
+
+/* Body/Header stuff */
+label {
+    color: #aaa;
+    font-family: "Courier";
+    font-weight: bold;
+    color: #507642;
+}
+
+/* Coluna headers */
+.column-labels label {
+    padding-bottom: 15px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #eee;
+}
+.column-labels .product-image,
+.column-labels .product-details,
+.column-labels .product-removal {
+    text-indent: -9999px;
+}
+
+/* Produtos */
+.pedido .checkout {
+    display: block;
+    margin-top: 10rem;
+}
+
+.pedido .btn-checkout {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+/* responsividade para  tablet */
+@media screen and (max-width: 650px) {
+    .shopping-cart {
+        margin: auto;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+    }
+
+    .column-labels {
+        display: none;
+    }
+
+    .product-image {
+        float: right;
+        width: auto;
+    }
+    .product-image img {
+        margin: 0 0 10px 10px;
+    }
+
+    .product-details {
+        float: none;
+        margin-bottom: 10px;
+        width: auto;
+    }
+
+    .product-price {
+        clear: both;
+        width: 70px;
+    }
+
+    .product-quantity {
+        width: 100px;
+    }
+    .product-quantity input {
+        margin-left: 20px;
+    }
+
+    .product-quantity:before {
+        content: "x";
+    }
+
+    .product-removal {
+        width: auto;
+    }
+
+    .product-line-price {
+        float: right;
+        width: 70px;
+    }
+}
+/* responsividade para iphone */
+@media screen and (max-width: 350px) {
+    .product-removal {
+        float: right;
+        font-family: "Courier";
+    }
+
+    .product-line-price {
+        float: right;
+        clear: left;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .product .product-line-price:before {
+        content: "Item Total: $";
+    }
+
+    .totals .totals-item label {
+        width: 60%;
+        font-family: "Courier";
+    }
+    .totals .totals-item .totals-value {
+        width: 40%;
+        font-family: "Courier";
+    }
+}

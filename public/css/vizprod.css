@@ -1,0 +1,56 @@
+/* .vizprod{
+    margin-bottom: 20vh;
+}
+
+
+.vizprod_container {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.virprod_card img {
+    width: 25%;
+    margin-right: auto;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.virprod_card {
+    display: flex;
+    
+}
+
+.virprod_card ul {
+    padding: 0;
+    margin: 0;
+    min-width: 60%;
+    width: 60%;
+}
+
+.virprod_card ul li {
+    background-color: #F3F4EC;
+    list-style: none;
+    margin: 40px 0;
+    padding: 20px 0;
+    border-radius: 5%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.book{
+    font-weight: bold;
+    font-size: large;
+}
+
+.virprod_card .add_carrinho {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.virprod_card .add_carrinho:hover {
+    background-color: #507642;
+    color: #fff;
+} */
